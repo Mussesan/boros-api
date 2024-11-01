@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.background-wallpaper {
+    @apply bg-cover bg-center bg-no-repeat;
+    background-image: url('../assets/carbon-black.jpg');
+}
